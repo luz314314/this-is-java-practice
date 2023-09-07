@@ -27,4 +27,18 @@ public class CarGas {
             }
         }
     }
+
+    static void simulate(){
+        CarGas myCar = new CarGas();
+        myCar.gas = 10;
+        myCar.run();
+    }
+
+    static void main(String[] args){
+        simulate();
+
+        CarGas myCar = new CarGas();
+        myCar.gas = 7;
+        myCar.run();
+    }
 }
